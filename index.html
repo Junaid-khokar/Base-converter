@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main1">
+        <div class="main">
+       
+            <fieldset>
+                <legend>Enter number</legend>
+    
+                <input type="text" placeholder="Enter" id="number">
+            </fieldset>
+            <fieldset>
+                <legend>Base</legend>
+                <div class="option">
+                    <span>Base From</span>
+                <select name="From" id="From">
+                    <option value="BI">Binary</option>
+                    <option value="OCT">Octal</option>
+                    <option value="DEC">Decimal</option>
+                    <option value="HEX">Hexa-Decimal</option>
+                </select>
+                </div>
+                <div class="option">
+                    <span>Base To</span>
+                <select name="From" id="To">
+                    <option value="DEC">Decimal</option>
+                    <option value="BI">Binary</option>
+                    <option value="OCT">Octal</option>
+                    <option value="HEX">Hexa-Decimal</option>
+                </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Result</legend>
+                <textarea  id="Result"></textarea>
+            </fieldset>
+            <div class="btn">
+                <button id="convert">Convert</button>
+            </div>
+          
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
